@@ -1,0 +1,8 @@
+<suite name="Smoke">
+  <test name="PrimusBank" >
+    <classes>
+       <class name="com.sim.TestNG.AnnotationsTest1" />
+       <class name="com.sim.TestNG.AnnotationsTest2" />
+    </classes>
+  </test>
+</suite>
