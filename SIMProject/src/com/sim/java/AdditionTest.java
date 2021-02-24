@@ -16,6 +16,8 @@ public class AdditionTest
 		int sum=a+b;
 		
 		System.out.println(sum);
+		
+		System.out.println("Modified Class");
 
 	}
 
