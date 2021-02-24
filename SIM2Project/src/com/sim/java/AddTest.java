@@ -8,6 +8,7 @@ public class AddTest {
 		int b =20;
 		 int Sum = a+b;
 		 System.out.println("Th Sum is "+Sum);
+		 System.out.println("class modified");
 
 	}
 
