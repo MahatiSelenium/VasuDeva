@@ -1,0 +1,31 @@
+selenium Grid :
+
+Selenium Grid is a part of the Selenium Suite that specializes on running 
+multiple tests across different browsers, 
+operating systems, and machines in parallel
+
+
+
+Hub creation:
+---------------
+
+java -jar selenium-server-standalone-2.53.1.jar -role hub
+
+Node Creation::
+------------------
+
+java -jar selenium-server-standalone-2.53.1.jar -role webdriver -hub http://localhost:4444/grid/register -port 5555
+
+it is supporting FF Browser Only
+
+
+Node 2 chrome::
+-----------------------
+
+java -Dwebdriver.chrome.driver=E:\chromedriver.exe -jar selenium-server-standalone-2.53.1.jar -role webdriver hub http://localhost:4444/grid/register -port 6666
+
+for Maximum Instances::
+-------------------------
+
+java -Dwebdriver.chrome.driver=D:\chromedriver.exe -jar selenium-server-standalone-2.53.1.jar-role webdriver -hub http://192.168.1.54:4444/grid/register -browser browsername=chrome,
+maxInstances=10

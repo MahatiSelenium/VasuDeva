@@ -1,0 +1,18 @@
+<suite name="Grid Demo Suite" parallel="tests">
+  
+  <test name="Login on Firefox" >
+   <parameter name="browser"  value="firefox" />
+    <classes>
+	   <class name="com.sim.grid.Grid" />
+	   
+    </classes>
+  </test>
+ 
+  <test name="Login on Chrome" >
+   <parameter name="browser"  value="chrome" />
+    <classes>
+	   <class name="com.sim.grid.Grid" />
+	   
+    </classes>
+  </test>
+</suite>
