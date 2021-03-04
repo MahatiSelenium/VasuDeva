@@ -1,0 +1,15 @@
+What is Framework:
+============
+A framework defines a set of rules or best practices which we can follow in a systematic way to achieve the desired results. So the mentioned test automation frameworks deal with best practices to achieve the goals of our automation project.
+
+Data Driven framework :
+===============
+		Data Driven framework is focused on separating the test scripts logic and the test data from each other. Allows us to create test automation scripts by passing different sets of test data. The test data set is kept in the external files or resources such as MS Excel Sheets, MS Access Tables, SQL Database, XML files etc., The test scripts connect to the external resources to get the test data. By using this framework we could easily make the test scripts work properly for different sets of test data. This framework significantly reduces the number of test scripts compared to a modular based framework.
+
+Keyword Driven Framework:
+=================
+		It is also known as table-driven testing or action word based testing. In Keyword-driven testing, we use a table format to define keywords or action words for each function or method that we would execute. It performs automation test scripts based on the keywords specified in the excel sheet. By using this Framework, testers can work with keywords to develop any test automation script, testers with less programming knowledge would also be able to work on the test scripts. The logic to read keywords and call the required action mentioned in the external excel sheet is placed in the main class. Keyword-driven testing is similar to data-driven testing.
+
+Hybrid Driven Framework:
+=================
+		Hybrid Test automation framework is the combination of data driven And Keyword driven frameworks  It attempts to leverage the strengths and benefits of other frameworks for the particular test environment it manages. Most of the teams are building this hybrid driven framework in the current market.
